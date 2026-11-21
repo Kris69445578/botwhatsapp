@@ -1,0 +1,15 @@
+{
+  "name": "jahim-bot-pair-server",
+  "version": "1.0.0",
+  "description": "Pair-code server for JAHIM BOT (generates a WhatsApp pairing code and sends creds.json to the linked chat)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "author": "MR TONY",
+  "license": "ISC",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "express": "^4.19.2",
+    "pino": "^8.21.0"
+  }
+}
